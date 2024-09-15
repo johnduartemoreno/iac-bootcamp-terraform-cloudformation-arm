@@ -1,0 +1,13 @@
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Crear una instancia EC2 con CloudFormation
+
+Resources:
+  MiInstanciaEC2:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0c55b159cbfafe1f0  # Reemplaza con una AMI válida en tu región
+      Tags:
+        - Key: Name
+          Value: MiInstanciaCloudFormation
