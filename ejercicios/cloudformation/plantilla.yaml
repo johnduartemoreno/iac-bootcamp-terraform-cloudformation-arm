@@ -7,7 +7,7 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-0c55b159cbfafe1f0  # Reemplaza con una AMI válida en tu región
+      ImageId: ami-0182f373e66f89c85  # Reemplaza con una AMI válida en tu región
       Tags:
         - Key: Name
           Value: MiInstanciaCloudFormation
